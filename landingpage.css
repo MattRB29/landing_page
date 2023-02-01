@@ -1,54 +1,30 @@
-.container{
-    background-color: #232c3a;
-}
-.header {
-    display: flex;
-   justify-content: space-between;
- 
-
-   
+.container {
+    background-color: #1f2937;
 }
 
-.links {
-    display: flex;
-   
+.herot {
+font-family: 'Roboto';
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
 }
 
-
-.h2{
-    display: flex;
-    font-family: 'Roboto';
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-    padding-bottom: 20px;
-
-
-}
-
-.p {
-    
+.herost, .links {
     font-family: 'Roboto';
     font-size: 18px;
     color: #e5e7eb;
-    
 }
 
-.section {
-display: flex;
-justify-content: space-between;
-
-}
-.img   {
-    display: flex;
-float: right;
-    height: 300px;
-    width: 500px;
-text-align: center;
-
+.hlogo {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .button {
-    background-color: #3882f6
+    background-color: #3882f6;
 }
+
+.section4 {
     
+}
