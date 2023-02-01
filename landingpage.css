@@ -1,0 +1,54 @@
+.container{
+    background-color: #232c3a;
+}
+.header {
+    display: flex;
+   justify-content: space-between;
+ 
+
+   
+}
+
+.links {
+    display: flex;
+   
+}
+
+
+.h2{
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding-bottom: 20px;
+
+
+}
+
+.p {
+    
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+.section {
+display: flex;
+justify-content: space-between;
+
+}
+.img   {
+    display: flex;
+float: right;
+    height: 300px;
+    width: 500px;
+text-align: center;
+
+}
+
+.button {
+    background-color: #3882f6
+}
+    
