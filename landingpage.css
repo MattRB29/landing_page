@@ -1,81 +1,108 @@
-.container {
-    background-color: #1f2937;
-    padding-bottom: 70px;
-}
-
-.header{
-display: flex;
-justify-content: space-between;
-padding-bottom: 70px;
-}
-
-
-.herot {
-font-family: 'Roboto';
-font-size: 48px;
-font-weight: bolder;
-color: #f9faf8;
-
-}
-
-.herost {
-    font-family: 'Roboto';
-    font-size: 18px;
-    color: #e5e7eb;
+.body, .header, .first, .cards, .third, .fourth-add {
     display: flex;
-    padding-bottom: 30px;
 }
 
-.hlogo {
-    font-family: 'Roboto';
-    font-size: 24px;
-    color: #f9faf8;
-}
-.placeholder {
-    float: right;
-    height: 200;
-    width: 200;
-  
-}
-.button {
-    background-color: #3882f6;
-    border-radius: 8px;
-    color: white;
-}
-
-.info {
-    font-family: 'Roboto';
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-    text-align: center;
-}
-
-.gallery {
-    display: flex;
+.header {
     justify-content: space-between;
 }
 
-.quote {
-    padding: 60px;
+.section1 {
+    background-color: #1f2937;
 }
 
-.section4 {
+.second  {
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.third, .fourth-add {
+    justify-content: space-around;
+}
+
+.first-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.first-sub-text, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.placeholder {
+    background-color: grey;
+    text-align: center;
+    color: hotpink;
+    width: 200px;
+    padding: 00px;
+height: 200px;
+
+}
+
+.first {
+    gap: 100px;
+}
+
+.button, .button2 ,.fourth-add {
+    background-color: #3882f6;
+}
+
+.third {
     background-color: #e5e7eb;
-    font-family: 'Roboto';
-    font-size: 36px;
-    font-weight: light;
+    color: #1f2937;
     font-style: italic;
-    
+    font-size: 36px;
+    padding: 50px;
+    gap: 40px;
 }
 
-.section5 {
-        background-color: #3882f6;
+.caption {
+   font-size: 20px;
+   color: black;
+   flex-direction: column;
+   align-self: flex-end;
+}
+
+.fourth {
+    margin: 50px;
+    padding: 30px;
+    background-color: white;
+
+ 
+}
+
+.fourth-add {
+    margin: 30px;
+    padding: 20px;
 }
 
 .links {
-        font-family: 'Roboto';
-        font-size: 18px;
-        color: #e5e7eb;
-        display: flex;
+    gap:30px;   
+    text-decoration: none;
+    display: flex;
+}
+
+.first-container {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.second-main {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cards {
+    border-color: aqua;
 }
