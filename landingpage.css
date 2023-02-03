@@ -1,4 +1,9 @@
-.body, .header, .first, .cards, .third, .fourth-add {
+.body,
+.header,
+.first,
+.cards,
+.third,
+.fourth-add {
     display: flex;
 }
 
@@ -10,14 +15,15 @@
     background-color: #1f2937;
 }
 
-.second  {
+.second {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
 
 }
 
-.third, .fourth-add {
+.third,
+.fourth-add {
     justify-content: space-around;
 }
 
@@ -25,17 +31,21 @@
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    font-family: 'Roboto';
 }
 
 
-.first-sub-text, .links {
+.first-sub-text,
+.links {
     font-size: 18px;
     color: #e5e7eb;
+    font-family: 'Roboto';
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-family: 'Roboto';
 }
 
 .placeholder {
@@ -43,7 +53,7 @@
     text-align: center;
     color: hotpink;
     width: 200px;
-    padding: 00px;
+    padding: 100px;
     height: 200px;
 
 }
@@ -52,7 +62,9 @@
     gap: 100px;
 }
 
-.button, .button2 ,.fourth-add {
+.button,
+.button2,
+.fourth-add {
     background-color: #3882f6;
     color: whitesmoke;
 }
@@ -64,14 +76,16 @@
     font-size: 36px;
     padding: 50px;
     gap: 40px;
+    font-family: 'Roboto';
 }
 
 .caption {
-   font-size: 15px;
-   color: black;
-   flex-direction: column;
-   align-self: flex-end;
-   font-weight: bold;
+    font-size: 15px;
+    color: black;
+    flex-direction: column;
+    align-self: flex-end;
+    font-weight: bold;
+    font-family: 'Roboto';
 }
 
 .fourth {
@@ -79,7 +93,7 @@
     padding: 30px;
     background-color: white;
 
- 
+
 }
 
 .fourth-add {
@@ -88,7 +102,7 @@
 }
 
 .links {
-    gap:30px;   
+    gap: 30px;
     text-decoration: none;
     display: flex;
 }
@@ -105,6 +119,7 @@
     font-size: 36px;
     font-weight: bolder;
     margin-bottom: 50px;
+    font-family: 'Roboto';
 }
 
 .cards {
@@ -123,4 +138,5 @@
 .fourth-title {
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Roboto';
 }
