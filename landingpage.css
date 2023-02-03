@@ -44,7 +44,7 @@
     color: hotpink;
     width: 200px;
     padding: 00px;
-height: 200px;
+    height: 200px;
 
 }
 
@@ -54,6 +54,7 @@ height: 200px;
 
 .button, .button2 ,.fourth-add {
     background-color: #3882f6;
+    color: whitesmoke;
 }
 
 .third {
@@ -66,10 +67,11 @@ height: 200px;
 }
 
 .caption {
-   font-size: 20px;
+   font-size: 15px;
    color: black;
    flex-direction: column;
    align-self: flex-end;
+   font-weight: bold;
 }
 
 .fourth {
@@ -109,3 +111,16 @@ height: 200px;
     border-color: aqua;
 }
 
+.footer {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.first-sub-text {
+    margin-bottom: 30px;
+}
+
+.fourth-title {
+    font-size: 30px;
+    font-weight: bold;
+}
