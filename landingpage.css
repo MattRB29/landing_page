@@ -12,7 +12,8 @@
 
 .second  {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 
 }
 
@@ -101,8 +102,10 @@ height: 200px;
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    margin-bottom: 50px;
 }
 
 .cards {
     border-color: aqua;
 }
+
